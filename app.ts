@@ -1,4 +1,4 @@
-import ToneGenerator from './toneGenerator.js';
+import ToneGenerator from './src/services/toneGenerator.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   const audioContext = new (window.AudioContext || window.webkitAudioContext)();
